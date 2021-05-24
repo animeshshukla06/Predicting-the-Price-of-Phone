@@ -1,4 +1,5 @@
-<h1>Regression Case Study of Predicting Price of Cell Phone:</h1>
+<h1>Regression Case Study of Predicting Price of Cell Phone:</h1>![CellPhones-1](https://user-images.githubusercontent.com/64635584/119385434-bed28d80-bce3-11eb-860b-8996c82ba7a9.png)
+
 
 <p>The file involves the case study of predicting the price of a mobile phone using the phone's specifications as independent features (data has been collected from Kaggle). Here, I have done a lot of analysis and preprocessing of data since there were a lot of missing values and depending upon the proportion of missing values, we choose suitable techniques for dealing with them. This is a brief post focusing on all aspects of Life Cycle of Data Science Project starting from detailed data preprocessing steps, model building, model evaluation, checking whether the model is underfitting or overfitting to getting the prediction and confidence Intervals for training data.</p>
 
