@@ -6,7 +6,7 @@
 <p>In the notebook, you would get a brief idea of how to preprocess the data and steps involved for data preprocessing:
 <ul><li>Dealing with missing values based upon the proportion of missing values for different features.</li>
 <li> Run various Statistical Test to understand the dependence of one feature to the other and further we can deal with the missing values. For example, screenshot of Chi-Square Test of Independence is attached.</li>
-<p><img src=https://user-images.githubusercontent.com/64635584/119385578-ede8ff00-bce3-11eb-8a4f-c7cbf7e1fa94.png, width=500, height=500></p>
+<p><img src=https://user-images.githubusercontent.com/64635584/119385578-ede8ff00-bce3-11eb-8a4f-c7cbf7e1fa94.png, width='500', height='200'></p>
 <li>If missing values are quite large, then you might need to use Machine Learning Algorithms solely to deal with it: In such a case, model is trained on the non-null data with the feature having missing values as target feature.</li>
 <li>Univariate Outlier Detection: Boxplots, IQR, Z-score are the common ways to detect univariate outliers in data and deal with them using appropriate technique. Screen shot is attached to get an idea of finding Univariate Outliers in Data.</li>
  <p><img src=https://user-images.githubusercontent.com/64635584/119386180-cba3b100-bce4-11eb-8d36-abaddb2fbaf5.png></p>
