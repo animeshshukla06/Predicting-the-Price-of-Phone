@@ -48,3 +48,4 @@
 If you want to read more about it, make sure to visit the [detailed blog about this project](https://animeshshukla06.medium.com/regression-case-study-of-predicting-the-price-of-cell-phone-using-its-specifications-brand-name-18b7e76fe99a) where things are explained more intuitively and step-by-step process is explained.
 
 <h3>Thank You!!</h3>
+<strong>© 2021 Animesh Shukla </strong>
