@@ -1,11 +1,11 @@
-<h1>Regression Case Study of Predicting Price of Cell Phone:</h1>![CellPhones-1](https://user-images.githubusercontent.com/64635584/119385434-bed28d80-bce3-11eb-860b-8996c82ba7a9.png)
+<h1>Regression Case Study of Predicting Price of Cell Phone:</h1>
 
-
-<p>The file involves the case study of predicting the price of a mobile phone using the phone's specifications as independent features (data has been collected from Kaggle). Here, I have done a lot of analysis and preprocessing of data since there were a lot of missing values and depending upon the proportion of missing values, we choose suitable techniques for dealing with them. This is a brief post focusing on all aspects of Life Cycle of Data Science Project starting from detailed data preprocessing steps, model building, model evaluation, checking whether the model is underfitting or overfitting to getting the prediction and confidence Intervals for training data.</p>
+<p>The jupyter notebook involves the case study of predicting the price of a mobile phone using the phone's specifications as independent features (data has been collected from Kaggle). Here, I have done a lot of analysis and preprocessing of data since there were a lot of missing values and depending upon the proportion of missing values, we choose suitable techniques for dealing with them. This is a brief post focusing on all aspects of Life Cycle of Data Science Project starting from detailed data preprocessing steps, model building, model evaluation, checking whether the model is underfitting or overfitting to getting the prediction and confidence Intervals for training data.</p>
 
 <p>In the notebook, you would get a brief idea of how to preprocess the data and steps involved for data preprocessing:
 <ul><li>Dealing with missing values based upon the proportion of missing values for different features.</li>
-<li> Run various Statistical Test to understand the dependence of one feature to the other and further we can deal with the missing values.</li>
+<li> Run various Statistical Test to understand the dependence of one feature to the other and further we can deal with the missing values.</li>![Chi-sQuare Test Of Indep  to check independence between 'os' and 'brand_name'](https://user-images.githubusercontent.com/64635584/119385578-ede8ff00-bce3-11eb-8a4f-c7cbf7e1fa94.png)
+
 <li>If missing values are quite large, then you might need to use Machine Learning Algorithms solely to deal with it: In such a case, model is trained on the non-null data with the feature having missing values as target feature.</li>
 <li>Univariate Outlier Detection: Boxplots, IQR, Z-score are the common ways to detect univariate outliers in data and deal with them using appropriate technique.</li>
 <li>Multivariate Outlier Detection: Mahalanobis Distance is commonly used for detecting multivariate outliers in data. Further, we can also use some unsupervised Anomaly Detection to flag the possible multivariate outliers. I have used Local Outlier Factor and Isolation Forest algorithms (discussed   In brief later on) to get an idea of multivariate outliers in our data.</li></ul></p>
